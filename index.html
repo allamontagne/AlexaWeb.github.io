@@ -1,37 +1,61 @@
-<html> 
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title> Welcome to AlexaWeb </title> 
-<head>	
-	<div id ="menu">
-	
-	<ul>
-		<li> Home</li>
-		<li> About</li>
-		<li> Projects</li>
-		<li> Music</li>
-	</ul>
-	</div>
-</head>	
+<html>
 
-<body> 
-	
-	
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Welcome to AlexaWeb </title>
 
+<!-- Toggles hidden (mobile) menu -->
+<script>
+function toggleMenu(){
+	var menu = document.getElementById("mobileMenu");
+	if (menu.className === "hideMenu"){
+		menu.className = "showMenu";
+	}
+	else{
+		menu.className = "hideMenu";
+	}
+}
+</script>
+
+<head>
+
+
+</head>
+
+</div>
+<body>
+	<div class ="container">
+		<div class = "span12" id ="Menu">
+		<img alt = "" onclick = "toggleMenu()" src = "images/Menu.png" />
+
+		<ul class = "hideMenu" id = "mobileMenu">
+			<li><a href = "#"> Home </a></li>
+			<li><a href="#about"> About </a></li>
+			<li><a href="#projects"> Projects</a></li>
+			<li><a href="#music"> Music </a></li>
+		</ul>
+
+		<ul class = "mainMenu">
+			<li><a href="#"> Home </a></li>
+			<li><a href="#about"> About </a></li>
+			<li><a href="#projects"> Projects</a></li>
+			<li><a href="#music"> Music </a></li>
+		</ul>
+		</div>
+
+		<div class = "span12" id = "header">
+			<a href = "#"> <img src = "images/header4.jpg"/>
+	   </div>
+
+		 <div class="span12" id="presents">
+		 <h2>Hello</h2>
+		 <p>Welcome to my corner of the internet.</p>
+		 </div>
+
+
+
+</div>
 </body>
-	
-	<center> 
-	<!--	<div class='picture'><img src="http://i.imgur.com/ZhquGuu.jpg?2" </img></div> -->
-		<!-- Note: Resize image to not look awful -->
-	</center>
-	
-	<br>
-	<br>
-	<div id ="title">
-	<p class="name">Alexa LaMontagne</p>
-	<p class="about"> 
-		Third year CompSci student at Ursinus College
-	</p>
-	</div>
-	
 
-</html> 
+
+
+</html>
