@@ -190,7 +190,7 @@ display: none;
   h3{
   margin: 20px 5px 10px;
   }
-    p {
+  p {
   font-size: 24px;
   }
  h1 a{
@@ -200,13 +200,14 @@ display: none;
   font-size: 36px;
   }
   .social {
-display: block;
-}
+    display: block;
+  }
   #footer p{
   font-size: 14px;
   }
-    #media a img, #media2 a img{
-max-width: 75px;
+
+  #media a img, #media2 a img{
+      max-width: 75px;
 }
 
 }
@@ -381,12 +382,10 @@ padding: 0;
 
 /*Current projects*/
 .currentsynopsis{
-max-width: 700px;
+max-width: 900px;
 margin: 0px auto;
 
 }
-
-
 
 /*Projects*/
 #ActII{
