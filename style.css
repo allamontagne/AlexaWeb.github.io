@@ -27,43 +27,9 @@ margin: 0px;
 
 }
 
-
  .span12 {
     width: 100%;
     padding: 20px 0px;
-}
-.span11 {
-    width: 91.66%;
-}
-.span10 {
-    width: 83.33%;
-}
-.span9 {
-    width: 75%;
-}
-.span8 {
-    width: 66.66%;
-}
-.span7 {
-    width: 58.33%;
-}
-.span6, .span6a {
-    width: 50%;
-}
-.span5 {
-    width: 41.66%;
-}
-.span4 {
-    width: 33.33%;
-}
-.span3 {
-    width: 25%;
-}
-.span2 {
-    width: 16.66%;
-}
-.span1 {
-    width: 12.5%;
 }
 
  @media (min-width:801px) {
@@ -205,6 +171,7 @@ max-width: 100px;
 display: none;
   opacity: 0;
   visibility: hidden;
+  color:#7A378B;
  }
     #menu img, .showMenu{
     display: block;
@@ -252,15 +219,12 @@ color: black;
 margin: 5px;
 padding-bottom: 10px;
 }
-h3{
-font-family: 'MarketingScript', cursive;
-color: black;
-text-align: center;
-}
+
 img{
 border: 0;
 outline: 0;
 }
+
 
 /*header*/
 #header{
@@ -272,7 +236,7 @@ padding: 0;
 }
 #header a{
 display: block;
-padding-top: 15px;
+
 width: 100%;
 height: 100%;
 }
@@ -282,6 +246,8 @@ width: 100%;
 margin: 0;
 padding: 0px;
 }
+
+
 /*menu*/
 #menu img {
 margin: 0px 20px;
@@ -347,15 +313,17 @@ color: black;
 background: white;
 }
 
+
 /*presents*/
 #presents{
 text-align: center;
 }
 h2{
 font-family: 'SwedenSans', Helvetica, sans-serif;
-color: #7A378B	;
+color: #7A378B;
 margin: 0 auto;
 }
+
 #presents p{
 margin: 10px auto;
 max-width: 500px;
@@ -367,102 +335,81 @@ color: #333333;
 color: #888888;
 }
 
+/*Portrait */
+.circle{
+  width: 100%auto;
+	height: 100%auto;
+	border-radius: 140px;
+	-webkit-border-radius: 140px;
+	-moz-border-radius: 140px;
+	background: url("images/Alexa1.jpg"), no-repeat;
+  float:left;
+  max-width: 100%;
+  height: auto;
+  margin:20px;
+}
 
-/*current movie*/
-h1 a{
-font-family: 'SwedenSans', Helvetica, sans-serif;
-text-shadow: 1px 1px 0px black;
-color: white;
-text-decoration: none;
-width: 100%;
-height: 100%;
-display: block;
-margin: 0;
-padding: 0;
-text-align: center;
-overflow: auto;
-}
+
+.circle img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
+
 h1{
-width: 100%;
+  font-size: 200%;
+  width: 100%;
+  color:#7A378B;
+  font-family: 'SwedenSans', Helvetica, sans-serif;
+  margin-top: 40px;
 }
+
 #current{
 margin: 0;
 padding: 0;
 }
+
 .currentmovie{
-text-align: center;
-box-shadow: 2px 2px 10px #888888;
-display: flex;
-display: -webkit-flex;
+  text-align: center;
+  box-shadow: 2px 2px 10px #888888;
+  display: flex;
+  display: -webkit-flex;
   justify-content: center;
   align-items: center;
   resize: both;
   overflow: auto;
-
 }
+
+/*Current projects*/
 .currentsynopsis{
 max-width: 700px;
 margin: 0px auto;
+
 }
 
-/*past films*/
-#films{
-margin: 0;
-padding: 0;
-}
-#films h2{
-text-align: center;
-margin: 0px 0px 10px;
-}
-.filmholder{
-box-shadow: 2px 2px 10px #888888;
-margin-bottom: 30px;
-}
-.pastfilms{
-max-height: 200px;
-text-align: center;
-margin: 0;
-padding: 0;
-display: flex;
-display: -webkit-flex;
-  justify-content: center;
-  align-items: center;
-  resize: both;
-  overflow: auto;
-  background: black;
-}
-h4{
-width: 100%;
-}
-h4 a{
-font-family: 'SwedenSans', cursive;
-text-shadow: 1px 1px 0px black;
-height: 100%;
-color: white;
-height: 100%;
-width: 100%;
-display: block;
-text-decoration: none;
-overflow: auto;
-margin: 0;
-padding: 0;
-}
+
+
+/*Projects*/
 #ActII{
-background: url("images/ActII.jpg") no-repeat center center;
+background: url("images/ActIII.jpg") no-repeat center center;
 background-size: cover;
 }
-#SpaceCadets{
-background: url("images/SpaceCadets.jpg") no-repeat center center;
+#ActII h2{
+  color:white;
+  font-size: 700%;
+  padding: 20px;
+}
+
+/*Music*/
+#AMusic{
+background: url("images/music1.jpg") no-repeat center center;
 background-size: cover;
 }
-#SilentFaces{
-background: url("images/SilentFaces.jpg") no-repeat center center;
-background-size: cover;
+#AMusic h2{
+  color:white;
+  font-size: 700%;
+  padding: 20px;
 }
-#Gears{
-background: url("images/Gears.jpg") no-repeat center 25%;
-background-size: cover;
-}
+
 
 
 /*footer*/
@@ -493,8 +440,8 @@ color: transparent;
 color: white;
 }
 #footer p a:hover{
-color: #888888;
 }
+color: #888888;
 
 .credits{
 max-width: 800px;
