@@ -348,6 +348,7 @@ color: #888888;
   max-width: 100%;
   height: auto;
   margin:20px;
+  margin-bottom: 80px;
 }
 
 
@@ -424,8 +425,9 @@ padding: 5px;
 max-width: 800px;
 color: white;
 }
+
 .social a img{
-max-width: 50px;
+max-width: 60px;
 width: 100%;
 padding: 15px;
 background: transparent;
